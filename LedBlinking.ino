@@ -10,10 +10,13 @@ pinMode(5, OUTPUT);
 pinMode(6, OUTPUT);}
 
 // using for loop
-for ( int a = 5 ; a > 1 ; a-- )
+void loop()
 {
-digitalWrite(a, HIGH);
-delay(d);
-digitalWrite(a, LOW);
-delay(d);
-}
+    for ( int a = 5 ; a <7 ; a++ )
+    {
+        digitalWrite(a, HIGH);
+        delay(d);
+        digitalWrite(a, LOW);
+        delay(d);
+        }
+        }
